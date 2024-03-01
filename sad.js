@@ -57,3 +57,13 @@ let img1 = document.createElement('img')
 let img2 = document.createElement('img')
 let img3 = document.createElement('img')
 let img4 = document.createElement('img')
+
+gallery1.style.height = '800px'
+gallery1.style.height = '800px'
+gallery1.id('gallery1')
+document.body.append(gallery1)
+
+var img = document.createElement("img");
+img.src = "./images/Chris.jpg";
+var src = document.getElementById("gallery1");
+src.appendChild(img);
