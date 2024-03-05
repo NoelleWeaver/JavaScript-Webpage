@@ -102,6 +102,26 @@ img.style.boxShadow = '20px 20px 50px 10px black';
 document.body.appendChild(gallery1);
 gallery1.appendChild(img);
 
+let paragraph = document.createElement('p')
+let container = document.createElement('div')
+paragraph.textContent = `Chris Cornell, the iconic frontman of bands such as Soundgarden and Audioslave, left an indelible mark on the music world with his soulful voice and introspective lyrics. Born on July 20, 1964, in Seattle, Washington, Cornell's powerful vocals and dynamic stage presence captivated audiences worldwide. Throughout his career, he pushed the boundaries of alternative rock, seamlessly blending grunge, metal, and alternative styles to create a sound uniquely his own. Songs like "Black Hole Sun" and "Like a Stone" remain timeless classics, showcasing his incredible talent and poetic lyricism. Beyond his musical achievements, Cornell was also a passionate advocate for social justice and environmental causes, using his platform to raise awareness and inspire change. Though his untimely passing in 2017 left a void in the music community, his legacy continues to live on through his groundbreaking work and enduring influence on generations of musicians and fans alike.`
+paragraph.style.color = 'white'
+paragraph.style.backgroundColor = '#333'
+paragraph.style.opacity = '1000%'
+paragraph.style.borderRadius = '20px'
+paragraph.style.width = '800px'
+paragraph.style.height = '200px'
+paragraph.style.justifyContent = 'center'
+paragraph.style.alignItems = 'center'
+paragraph.style.textAlign = 'center'
+paragraph.style.display = 'table-cell'
+paragraph.style.verticalAlign = 'middle'
+paragraph.style.position = 'relative'
+paragraph.style.left = '350px'
+paragraph.style.top = '-20px'
+document.body.appendChild(paragraph)
+
+
 let footer = document.createElement('div')
 footer.style.backgroundColor = '#333';
 footer.style.opacity = '70%';
@@ -110,7 +130,7 @@ footer.style.overflow = 'hidden';
 footer.style.borderRadius = '5px';
 footer.style.position = 'relative';
 footer.style.bottom = '0px';
-footer.textContent = "Chris Cornell is bae";
+footer.textContent = "Chris Cornell is super cool";
 footer.style.color = "#f2f2f2";
 footer.style.textAlign = "center";
 document.body.appendChild(footer)
